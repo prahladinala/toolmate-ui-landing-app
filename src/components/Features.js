@@ -14,7 +14,7 @@ const actions = [
     iconForeground: "text-teal-700",
     iconBackground: "bg-teal-50",
     description:
-      "All of the components are designed with responsiveness in mind, so you can be confident that your interfaces will look great on any device.",
+      "The design of all the elements prioritizes responsiveness, ensuring that your interfaces will appear stunning on any type of device.",
   },
   {
     title: "Easy Integration",
@@ -22,7 +22,7 @@ const actions = [
     iconForeground: "text-purple-700",
     iconBackground: "bg-purple-50",
     description:
-      "ToolMate UI is designed to integrate seamlessly with your existing projects, allowing you to get up and running quickly.    ",
+      "ToolMate UI is crafted to effortlessly blend with your current projects, enabling you to start efficiently without any delays.",
   },
   {
     title: "Copy to Clipboard",
@@ -30,7 +30,7 @@ const actions = [
     iconForeground: "text-sky-700",
     iconBackground: "bg-sky-50",
     description:
-      "With ToolMate UI, you can easily copy the code for any component directly to your clipboard, saving you time and effort.    ",
+      "ToolMate UI streamlines the process, allowing you to effortlessly copy component code to your clipboard, a simple time-saving feature.",
   },
   {
     title: "Customizable",
@@ -38,7 +38,7 @@ const actions = [
     iconForeground: "text-yellow-700",
     iconBackground: "bg-yellow-50",
     description:
-      "ToolMate UI components are designed to be highly customizable and extendable. You can easily change the styles of the components to match your brand or product.    ",
+      "ToolMate UI components offer extensive customization options, making it a breeze to tailor their styles to align with your brand or product's identity.",
   },
   {
     title: "Regular Updates",
@@ -46,7 +46,7 @@ const actions = [
     iconForeground: "text-rose-700",
     iconBackground: "bg-rose-50",
     description:
-      "ToolMate UI is constantly updated by a community of developers, meaning that you can rely on the library to stay up-to-date with the latest design trends and best practices.    ",
+      "The ToolMate UI library benefits from ongoing updates contributed by a dedicated community of developers, ensuring that it remains in sync with the latest design trends and adheres to best practices.",
   },
   {
     title: "Free and Open Source",
@@ -54,7 +54,7 @@ const actions = [
     iconForeground: "text-indigo-700",
     iconBackground: "bg-indigo-50",
     description:
-      "ToolMate UI is free to use, and its open-source nature means that you can contribute to the library and help make it even better.",
+      "You can utilize ToolMate UI at no cost, and its open-source framework welcomes your contributions, allowing you to actively participate in enhancing and improving the library.",
   },
 ];
 
@@ -65,6 +65,11 @@ function classNames(...classes) {
 export default function Features() {
   return (
     <div className="bg-gray-900">
+      <div className="text-center">
+        <h2 className="text-3xl font-bold tracking-tight text-gray-200 sm:text-4xl">
+          Features 🔥
+        </h2>
+      </div>
       <div name="features" className="container mx-auto p-4 sm:p-6 lg:p-8 ">
         <div className="divide-y divide-gray-200 overflow-hidden rounded-lg bg-gray-200 shadow sm:grid sm:grid-cols-2 lg:grid-cols-3 sm:gap-px sm:divide-y-0">
           {actions.map((action, actionIdx) => (
