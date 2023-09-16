@@ -1,14 +1,8 @@
-"use client";
-import { useState } from "react";
-import { Switch } from "@headlessui/react";
-
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
 export default function Contact() {
-  const [agreed, setAgreed] = useState(false);
-
   return (
     <div className="overflow-hidden bg-gray-900 py-16 px-6 lg:px-8 lg:py-24">
       <div className="relative mx-auto max-w-xl">
@@ -112,7 +106,7 @@ export default function Contact() {
                 type="submit"
                 className="inline-flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
               >
-                Let's talk
+                Let&apos;s talk
               </button>
             </div>
           </form>
