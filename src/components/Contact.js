@@ -30,6 +30,7 @@ export default function Contact() {
                   name="name"
                   id="name"
                   autoComplete="organization"
+                  placeholder="IronMan"
                   className="block w-full rounded-md border-gray-300 py-3 px-4 shadow-sm text-gray-900 focus:border-indigo-500 focus:ring-indigo-500"
                 />
               </div>
@@ -47,6 +48,7 @@ export default function Contact() {
                   name="email"
                   type="email"
                   autoComplete="email"
+                  placeholder="ironman@avengers.com"
                   className="block w-full rounded-md border-gray-300 py-3 px-4 shadow-sm text-gray-900 focus:border-indigo-500 focus:ring-indigo-500"
                 />
               </div>
@@ -80,7 +82,7 @@ export default function Contact() {
                   id="phone-number"
                   autoComplete="tel"
                   className="block w-full rounded-md border-gray-300 py-3 px-4 pl-20 text-gray-900 focus:border-indigo-500 focus:ring-indigo-500"
-                  placeholder="+1 (555) 987-6543"
+                  placeholder="+91 93917 61279"
                 />
               </div>
             </div>
@@ -98,6 +100,7 @@ export default function Contact() {
                   rows={4}
                   className="block w-full rounded-md border-gray-300 py-3 px-4 shadow-sm text-gray-900 focus:border-indigo-500 focus:ring-indigo-500"
                   defaultValue={""}
+                  placeholder="Need your help?"
                 />
               </div>
             </div>
